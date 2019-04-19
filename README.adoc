@@ -17,10 +17,13 @@
 // limitations under the License.
 //
 
-= Eclipse MicroProfile OpenAPI
+= Eclipse MicroProfile Open Doc ( Open API +  JavaDoc + ... ) 
 
-This MicroProfile specification aims at providing a unified Java API for the link:++https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md++[OpenAPI v3 specification],
-that all application developers can use to expose their API documentation.
+This MicroProfile specification aims at providing a implementation for the link:https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md[OpenAPI v3 specification] using JavaDoc's Doclet API that all application developers can use to expose their API documentation.
+
+On top, it also aims to compliment MicroProfile documentation for component which are not covered under OpenAPI (only REST ) such as messaging and streams.
+
+Further it can enhanced to cover other cloud native component such as lamda function as well.
 
 * The link:++https://github.com/eclipse/microprofile-open-api/tree/master/api/src/main/java/org/eclipse/microprofile/openapi++[spec APIs] are composed of annotations, models, and programming interfaces.
 * The link:++https://github.com/eclipse/microprofile-open-api/blob/master/spec/src/main/asciidoc/microprofile-openapi-spec.adoc++[spec documentation] outlines the rules and boundaries of the spec.
